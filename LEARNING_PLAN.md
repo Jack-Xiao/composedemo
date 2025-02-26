@@ -10,11 +10,11 @@
 - [✅] 实践：创建简单的文本和按钮界面
 
 ### 第2周：布局和基础组件
-- [ ] 学习 Compose 中的布局系统（Row, Column, Box）
-- [ ] 掌握 Modifier 的使用方法
-- [ ] 了解常用的 Material 组件（Button, TextField, Card等）
-- [ ] 学习列表组件（LazyColumn, LazyRow）
-- [ ] 实践：创建一个简单的列表应用
+- [✅] 学习 Compose 中的布局系统（Row, Column, Box）
+- [✅] 掌握 Modifier 的使用方法
+- [✅] 了解常用的 Material 组件（Button, TextField, Card等）
+- [✅] 学习列表组件（LazyColumn, LazyRow）
+- [✅] 实践：创建一个简单的列表应用
 
 ## 第二阶段：进阶技能（3-4周）
 
