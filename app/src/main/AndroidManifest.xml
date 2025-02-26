@@ -23,6 +23,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".week1.BasicComposeActivity"
+            android:exported="false"
+            android:label="Compose基础学习"
+            android:theme="@style/Theme.ComposeDemo" />
+        <activity
+            android:name=".week2.AdvancedLayoutActivity"
+            android:exported="false"
+            android:label="高级布局与组件"
+            android:theme="@style/Theme.ComposeDemo" />
+        <activity
+            android:name=".week2.GridLayoutActivity"
+            android:exported="false"
+            android:label="网格布局与自定义组件"
+            android:theme="@style/Theme.ComposeDemo" />
     </application>
 
 </manifest>
