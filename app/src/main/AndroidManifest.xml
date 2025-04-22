@@ -38,6 +38,16 @@
             android:exported="false"
             android:label="网格布局与自定义组件"
             android:theme="@style/Theme.ComposeDemo" />
+        <activity
+            android:name=".week3.StateManagementActivity"
+            android:exported="false"
+            android:label="状态管理"
+            android:theme="@style/Theme.ComposeDemo" />
+        <activity
+            android:name=".week3.LifecycleAwareActivity"
+            android:exported="false"
+            android:label="生命周期感知组件"
+            android:theme="@style/Theme.ComposeDemo" />
     </application>
 
 </manifest>

@@ -6,6 +6,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -31,6 +32,8 @@ import com.tianyejia.composedemo.ui.theme.ComposeDemoTheme
 import com.tianyejia.composedemo.week1.BasicComposeActivity
 import com.tianyejia.composedemo.week2.AdvancedLayoutActivity
 import com.tianyejia.composedemo.week2.GridLayoutActivity
+import com.tianyejia.composedemo.week3.StateManagementActivity
+import com.tianyejia.composedemo.week3.LifecycleAwareActivity
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -86,8 +89,8 @@ fun MainScreen(modifier: Modifier = Modifier) {
         
         // 第二周学习内容入口 - 高级布局
         LearningCard(
-            title = "第二周：高级布局与组件",
-            description = "学习LazyColumn、LazyRow、卡片布局和动画效果",
+            title = "第二周：布局和基础组件",
+            description = "学习Row, Column, Box等布局组件",
             onClick = {
                 val intent = Intent(context, AdvancedLayoutActivity::class.java)
                 context.startActivity(intent)
@@ -97,7 +100,7 @@ fun MainScreen(modifier: Modifier = Modifier) {
         // 第二周学习内容入口 - 网格布局
         LearningCard(
             title = "第二周：网格布局与自定义组件",
-            description = "学习LazyVerticalGrid、自定义组件和状态管理",
+            description = "学习Grid布局和自定义组件",
             onClick = {
                 val intent = Intent(context, GridLayoutActivity::class.java)
                 context.startActivity(intent)
@@ -105,7 +108,24 @@ fun MainScreen(modifier: Modifier = Modifier) {
         )
         
         // 第三周学习内容入口 - 状态管理
-
+        LearningCard(
+            title = "第三周：状态管理",
+            description = "学习Compose中的状态管理和ViewModel集成",
+            onClick = {
+                val intent = Intent(context, StateManagementActivity::class.java)
+                context.startActivity(intent)
+            }
+        )
+        
+        // 第三周学习内容入口 - 生命周期
+        LearningCard(
+            title = "第三周：生命周期感知组件",
+            description = "学习Compose中的副作用和生命周期相关API",
+            onClick = {
+                val intent = Intent(context, LifecycleAwareActivity::class.java)
+                context.startActivity(intent)
+            }
+        )
     }
 }
 
