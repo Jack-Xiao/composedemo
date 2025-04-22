@@ -208,9 +208,9 @@ fun GridLayoutScreen(onBackClick: () -> Unit) {
                 if (isLoading) {
                     // 显示加载指示器
                     CircularProgressIndicator(
-                        modifier = Modifier.size(24.dp),
+                        modifier = Modifier.size(50.dp),
                         color = MaterialTheme.colorScheme.onPrimary,
-                        strokeWidth = 2.dp
+                        strokeWidth = 20.dp
                     )
                 } else {
                     Text("确认选择")

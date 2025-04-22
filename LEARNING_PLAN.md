@@ -19,11 +19,11 @@
 ## 第二阶段：进阶技能（3-4周）
 
 ### 第3周：状态管理和生命周期
-- [ ] 学习 Compose 中的状态管理（remember, mutableStateOf）
+- [✅] 学习 Compose 中的状态管理（remember, mutableStateOf）
 - [ ] 理解 Compose 与传统 View 系统的集成
-- [ ] 掌握 Compose 中的副作用处理（LaunchedEffect, DisposableEffect）
-- [ ] 学习 ViewModel 与 Compose 的结合使用
-- [ ] 实践：创建一个带状态管理的计数器应用
+- [✅] 掌握 Compose 中的副作用处理（LaunchedEffect, DisposableEffect）
+- [✅] 学习 ViewModel 与 Compose 的结合使用
+- [✅] 实践：创建一个带状态管理的计数器应用 (通过任务管理器示例完成)
 
 ### 第4周：主题和动画
 - [ ] 学习 Material Design 主题在 Compose 中的应用

@@ -265,7 +265,8 @@ fun CategorySelector(
                         shape = RoundedCornerShape(50)
                     )
                     .clickable { onCategorySelected(category) },
-                color = backgroundColor
+                color = backgroundColor,
+                shadowElevation = 10.dp
             ) {
                 Text(
                     text = category,
@@ -415,4 +416,4 @@ fun AdvancedLayoutScreenPreview() {
     ComposeDemoTheme {
         AdvancedLayoutScreen(onBackClick = {})
     }
-} 
+}

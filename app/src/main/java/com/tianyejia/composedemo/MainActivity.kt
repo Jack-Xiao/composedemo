@@ -103,6 +103,9 @@ fun MainScreen(modifier: Modifier = Modifier) {
                 context.startActivity(intent)
             }
         )
+        
+        // 第三周学习内容入口 - 状态管理
+
     }
 }
 
