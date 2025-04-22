@@ -74,8 +74,10 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-    androidTestImplementation(platform(libs.androidx.compose.bom))
-    androidTestImplementation(libs.androidx.ui.test.junit4)
+    
+    // Compose 测试依赖 - 使用明确的版本号而不是BOM
+    androidTestImplementation("androidx.compose.ui:ui-test-junit4:1.5.4")
+    androidTestImplementation("androidx.compose.ui:ui-test:1.5.4")
     
     // 调试工具
     debugImplementation(libs.androidx.ui.tooling)
