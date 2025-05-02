@@ -59,6 +59,10 @@ dependencies {
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.ui)
     implementation(libs.androidx.ui.graphics)
+    // Navigation 依赖
+    implementation("androidx.navigation:navigation-compose:2.7.7")
+    // Material 图标依赖
+    implementation("androidx.compose.material:material-icons-extended:1.5.4")
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
     
